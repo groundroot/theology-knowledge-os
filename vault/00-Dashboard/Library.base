@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.inFolder("06-LLM-Wiki/Source-Notes")
+views:
+  - type: table
+    name: 출처 노트
+    order:
+      - file.name
+      - source_type
+      - author
+      - review_status
+      - created
